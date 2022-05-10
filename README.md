@@ -1,4 +1,4 @@
 # Roche-Stapelberg-Portfolio
-Personal Portfolio Project
+Very simple personal portfolio project
 
-Work in Progress.
+Website was created using HTML, CSS, Javascript and Bootstrap
