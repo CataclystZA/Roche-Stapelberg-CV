@@ -2,7 +2,6 @@ body {
     font-family: monospace;
 }
 section {
-    height: 500px;
     background: white;
     border: solid black 5px;
 
@@ -77,4 +76,36 @@ p {
 
 .socials {
     padding-bottom: 200px;
+}
+
+.logo {
+    height: 50px;
+    margin: 30px;
+}
+
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+h2 {
+    font-size: 80px;
+}
+
+.information{
+
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
 }
