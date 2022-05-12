@@ -1,10 +1,7 @@
 body {
     font-family: monospace;
     margin: 0;
-}
-
-section {
-    background: #ffffff;
+    color: #ffffff;
 }
 
 .hero {
@@ -15,7 +12,7 @@ section {
 }
 
 footer {
-    background-color: black;
+    background-color: #1f1f27;
     color: #ffffff;
     padding: 80px;
 }
@@ -23,6 +20,10 @@ footer {
 a {
     color: #ffffff;
     text-decoration: none;
+}
+
+a:hover {
+    color: coral;
 }
 
 nav {
@@ -105,6 +106,7 @@ p {
     display: flex;
     justify-content: space-around;
     padding: 80px;
+    background-color: #262731;
 }
 
 .sub-section-alt {
@@ -112,6 +114,7 @@ p {
     flex-direction: column;
     text-align: center;
     padding: 80px;
+    background-color: #262731;
 }
 
 h2 {
@@ -127,7 +130,10 @@ h2 {
     display: flex;
     align-items: center;
 }
-
+table {
+    font-size: 20px;
+    margin: 10px;
+}
 .project-card {
     width: 300px;
     height: 500px;
