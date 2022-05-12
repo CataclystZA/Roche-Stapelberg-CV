@@ -2,21 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roche Stapelberg Portfolio</title>
     <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/36dcd22058.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="hero">
         <nav>
             <img class="logo" src="img/RS.png" alt="Logo">
-            <ul>
-                <li>About me</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Contacts</li>
+            <ul id="nav-list">
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contacts">Contacts</a></li>
             </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
         <div class="hero-area">
             <div class="hero-text">
@@ -33,8 +35,9 @@
             </div>
         </div>
     </section>
-    <section class="sub-section">
-        <div class="information">
+    <!-- About me section-->
+    <section class="sub-section" id="about-me">
+        <div class="information" >
             <h2>About me</h2>
             <p>Hello my name is Roche Staplberg. I am a Software Engineer with a passion for learning</p>
         </div>
@@ -42,17 +45,39 @@
             <img class="headshot" src="img/RS.png" alt="Headshot">
         </div>
     </section>
-    <section>
+    <!-- Project Section-->
+    <section class="sub-section-alt" id="projects">
         <h2>Projects</h2>
         <div class="project-container">
-            <div class="project-card"></div>
-            <div class="project-card"></div>
-            <div class="project-card"></div>
+            <!-- Project card-->
+            <div class="project-card">
+                <img class="project-image" src="img/RS.png" alt="project one image">
+                <h3>Project 1</h3>
+                <p class="subtext"> This is my project and some text about it</p>
+                <hr>
+                <p class="subtext"><a href="https://github.com/RocheStapelberg">View Here</a></p>
+            </div>
+            <!-- Project card-->
+            <div class="project-card">
+                <img class="project-image" src="img/RS.png" alt="project one image">
+                <h3>Project 1</h3>
+                <p class="subtext"> This is my project and some text about it</p>
+                <hr>
+                <p class="subtext"><a href="https://github.com/RocheStapelberg">View Here</a></p>
+            </div>
+            <!-- Project card-->
+            <div class="project-card">
+                <img class="project-image" src="img/RS.png" alt="project one image">
+                <h3>Project 1</h3>
+                <p class="subtext"> This is my project and some text about it</p>
+                <hr>
+                <p class="subtext"><a href="https://github.com/RocheStapelberg">View Here</a></p>
+            </div>
         </div>
     </section>
-    <footer></footer>
-
-
+    <footer id="contacts">
+        <h2>Contact me</h2>
+    </footer>
     <script src="scripts/script.js"></script>
 </body>
 </html>
