@@ -1,8 +1,21 @@
-const hamburgerButton = document.getElementById('hamburger');
-const navList = document.getElementById('nav-list');
+let i = 0;
+function typeWriter() {
+    const txt = "I'm a Software Enigneer.";
+    const speed = 50;
 
-function ToggleButton() {
-    navList.classList.toggle('show')
+    if (i < txt.length) {
+        document.getElementById("auto-write").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+    }
 }
 
-hamburgerButton.addEventListener('click', ToggleButton)
+
+const hamburgerButton = document.getElementById("hamburger");
+const navList = document.getElementById("nav-list");
+
+function ToggleButton() {
+    navList.classList.toggle("show");
+}
+
+hamburgerButton.addEventListener("click", ToggleButton);
