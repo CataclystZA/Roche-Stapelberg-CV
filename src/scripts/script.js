@@ -1,6 +1,6 @@
 let i = 0;
 function typeWriter() {
-    const txt = "I'm a Software Enigneer.";
+    const txt = "Hi! I'm a software enigneering student.";
     const speed = 50;
 
     if (i < txt.length) {
